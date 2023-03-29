@@ -17,7 +17,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={poppins.className + ' h-full'}>
-      <body>
+      <body className="h-full w-full">
         <Navbar />
         {children}
       </body>
