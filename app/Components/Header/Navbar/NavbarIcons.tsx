@@ -1,4 +1,4 @@
-import { IconProps } from '@/app/Components/Icons/IconsTypes'
+import { IconProps } from '@/app/Components/Icons/IconNavbar/IconsTypes'
 
 type Props = {
   name: string
