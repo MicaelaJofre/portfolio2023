@@ -10,6 +10,9 @@ module.exports = {
       },
       height: {
         'section-layout': '30em'
+      },
+      gridTemplateColumns: {
+        'about-col': 'repeat(auto-fill, minmax(40px, 1fr))'
       }
     }
   },
