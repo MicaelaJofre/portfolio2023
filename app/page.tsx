@@ -1,9 +1,11 @@
+import About from './Components/About/About'
 import Hero from './Components/Home/Hero'
 
 export default function Home() {
   return (
-    <main className="w-full h-auto min-h-full flex flex-col justify-center items-center">
+    <main className="w-full h-auto pb-16 flex flex-col justify-center items-center gap-20 pt-16">
       <Hero />
+      <About />
     </main>
   )
 }
