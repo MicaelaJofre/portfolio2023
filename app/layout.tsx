@@ -1,7 +1,7 @@
 import './globals.css'
 import React from 'react'
 import { Poppins } from 'next/font/google'
-import Navbar from './Header/Navbar/Navbar'
+import Navbar from './Components/Header/Navbar/Navbar'
 
 export const metadata = {
   title: 'Micaela Jofre',
