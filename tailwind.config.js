@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'yellow-select': '#f9dc5c',
-        'white-bg': '#f4f4f4',
-        'gray-icon': '#918e8e'
+        'yellow-select': 'rgba(245, 158, 11, .8)',
+        'white-bg': '#f9f9f9',
+        'gray-icon': '#181616'
       },
       height: {
         'section-layout': '30em'
@@ -14,9 +14,6 @@ module.exports = {
       gridTemplateColumns: {
         'about-col': 'repeat(auto-fill, minmax(40px, 1fr))',
         'portfolio-col': 'repeat(auto-fill, minmax(200px, 1fr))'
-      },
-      backgroundImage: {
-        'body-texture': "url('/image/background/bg.jpg')"
       }
     }
   },
