@@ -42,7 +42,7 @@ const proyects = [
 
 const Portfolio = () => {
   return (
-    <section className="w-11/12 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
+    <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="grid grid-cols-portfolio-col justify-center w-10/12 items-center gap-5">
         <h2>
           <span className="largerPrint">P</span>royectos
