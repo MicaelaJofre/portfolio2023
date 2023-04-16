@@ -1,15 +1,23 @@
-import GitHub from '../Icons/IconSocial/GitHub'
+/* import GitHub from '../Icons/IconSocial/GitHub' */
 import BootstrapIcon from '../Icons/IconsAbout/BootstrapIcon'
 import CssIcon from '../Icons/IconsAbout/CssIcon'
+import CypressIcon from '../Icons/IconsAbout/CypressIcon'
 import ExpressIcon from '../Icons/IconsAbout/ExpressIcon'
+import Firebase from '../Icons/IconsAbout/Firebase'
 import GitIcon from '../Icons/IconsAbout/GitIcon'
 import HtmlIcon from '../Icons/IconsAbout/HtmlIcon'
 import JavaScriptIcon from '../Icons/IconsAbout/JavaScriptIcon'
+import JestIcon from '../Icons/IconsAbout/JestIcon'
 import JqueryIcon from '../Icons/IconsAbout/JqueryIcon'
 import MongodbIcon from '../Icons/IconsAbout/MongodbIcon'
+import NextIcon from '../Icons/IconsAbout/NextIcon'
 import NodeIcon from '../Icons/IconsAbout/NodeIcon'
 import ReactIcon from '../Icons/IconsAbout/ReactIcon'
 import SassIcon from '../Icons/IconsAbout/SassIcon'
+import tailwindicon from '../Icons/IconsAbout/TailwindIcon'
+import TypeScriptIcon from '../Icons/IconsAbout/TypeScriptIcon'
+/* import VisualIcon from '../Icons/IconsAbout/VisualIcon' */
+import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
 import AboutIcon from './AboutIcon'
 
 const icons = [
@@ -22,65 +30,73 @@ const icons = [
     svg: CssIcon
   },
   {
-    name: 'Bootstrap',
+    name: 'bootstrap',
     svg: BootstrapIcon
   },
   {
-    name: 'Sass',
+    name: 'sass',
     svg: SassIcon
   },
   {
-    name: 'Tailwind',
-    svg: JavaScriptIcon
+    name: 'tailwind',
+    svg: tailwindicon
   },
   {
     name: 'javaScript',
     svg: JavaScriptIcon
   },
   {
-    name: 'React',
+    name: 'firebase',
+    svg: Firebase
+  },
+  {
+    name: 'react',
     svg: ReactIcon
   },
   {
-    name: 'JQuery',
+    name: 'next',
+    svg: NextIcon
+  },
+  {
+    name: 'jquery',
     svg: JqueryIcon
   },
   {
-    name: 'TypeScript',
-    svg: JavaScriptIcon
+    name: 'typeScript',
+    svg: TypeScriptIcon
   },
   {
-    name: 'Node',
+    name: 'node',
     svg: NodeIcon
   },
   {
-    name: 'Express',
+    name: 'express',
     svg: ExpressIcon
   },
   {
-    name: 'MongoDB',
+    name: 'mongoDB',
     svg: MongodbIcon
   },
   {
-    name: 'javaScript',
-    svg: JavaScriptIcon
+    name: 'wordpress',
+    svg: WordpressIcon
   },
   {
-    name: 'otro',
-    svg: JavaScriptIcon
+    name: 'cypress',
+    svg: CypressIcon
   },
   {
-    name: 'javaScript',
-    svg: JavaScriptIcon
+    name: 'jest',
+    svg: JestIcon
   },
-  {
-    name: 'otro',
-    svg: JavaScriptIcon
+  /* {----borrar componente en caso de no utilizar
+    name: 'visual studio code',
+    svg: VisualIcon
   },
   {
     name: 'GitHub',
     svg: GitHub
-  },
+  }, */
   {
     name: 'Git',
     svg: GitIcon
