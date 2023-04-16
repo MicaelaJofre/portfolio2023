@@ -18,6 +18,7 @@ import tailwindicon from '../Icons/IconsAbout/TailwindIcon'
 import TypeScriptIcon from '../Icons/IconsAbout/TypeScriptIcon'
 /* import VisualIcon from '../Icons/IconsAbout/VisualIcon' */
 import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
+import Subtitle from '../Subtitle'
 import AboutIcon from './AboutIcon'
 
 const icons = [
@@ -108,9 +109,9 @@ const About = () => {
     <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="flex justify-center items-center w-full lg:w-11/12 gap-20">
         <div className="flex flex-col justify-center w-7/12 gap-1">
-          <h2>
+          <Subtitle>
             <span className="largerPrint">S</span>obre mi
-          </h2>
+          </Subtitle>
           <p className="text-xs font-normal text-gray-500 uppercase tracking-widest">Hola mundo!</p>
           <h3 className="font-bold text-[#181616] text-2xl">Soy Desarrolladora Fullstack.</h3>
           <p className="text-xs font-semibold leading-snug">
