@@ -1,4 +1,4 @@
-import { IconProps } from '../IconNavbar/IconsTypes'
+import { IconProps } from '../IconsTypes'
 
 function JavaScriptIcon({ width, height, color }: IconProps) {
   return (

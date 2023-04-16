@@ -1,4 +1,4 @@
-import { IconProps } from './IconsTypes'
+import { IconProps } from '../IconsTypes'
 
 const CertificatesIcon = ({ color, width, height }: IconProps) => {
   return (

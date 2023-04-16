@@ -1,4 +1,4 @@
-import { IconProps } from '../Icons/IconNavbar/IconsTypes'
+import { IconProps } from '../Icons/IconsTypes'
 
 type Props = {
   name: string

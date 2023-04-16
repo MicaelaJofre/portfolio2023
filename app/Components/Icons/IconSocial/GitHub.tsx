@@ -1,4 +1,4 @@
-import { IconProps } from '../IconNavbar/IconsTypes'
+import { IconProps } from '../IconsTypes'
 function GitHub({ color, width, height }: IconProps) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill={color} viewBox="0 0 128 128">

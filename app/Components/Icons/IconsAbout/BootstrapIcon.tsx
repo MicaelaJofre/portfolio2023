@@ -1,4 +1,4 @@
-import { IconProps } from '../IconNavbar/IconsTypes'
+import { IconProps } from '../IconsTypes'
 
 function BootstrapIcon({ color, width, height }: IconProps) {
   return (

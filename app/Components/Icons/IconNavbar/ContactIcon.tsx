@@ -1,4 +1,4 @@
-import { IconProps } from './IconsTypes'
+import { IconProps } from '../IconsTypes'
 
 const ContactIcon = ({ color, width, height }: IconProps) => {
   return (

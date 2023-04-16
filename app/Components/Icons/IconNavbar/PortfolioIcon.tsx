@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './IconsTypes'
+import { IconProps } from '../IconsTypes'
 
 const PortfolioIcon = ({ color, width, height }: IconProps) => {
   return (
