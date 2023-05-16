@@ -13,7 +13,8 @@ module.exports = {
       },
       gridTemplateColumns: {
         'about-col': 'repeat(auto-fill, minmax(40px, 1fr))',
-        'portfolio-col': 'repeat(auto-fill, minmax(200px, 1fr))'
+        'portfolio-col': 'repeat(auto-fill, minmax(200px, 1fr))',
+        'contact-col': 'repeat(auto-fill, minmax(210px, 1fr))'
       },
       minHeight: {
         section: '80%'
