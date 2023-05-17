@@ -12,7 +12,7 @@ type Props = {
 const Proyect = ({ img, name }: Props) => {
   const imageProps = typeof img === 'string' ? { src: img } : img
   return (
-    <div className="shadow-md p-3 flex justify-center items-center">
+    <div className="shadow-md p-3 flex justify-center items-center arrow cursor-pointer">
       <Image width={400} height={400} src={imageProps.src} alt={name} />
     </div>
   )

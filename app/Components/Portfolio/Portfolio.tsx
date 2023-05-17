@@ -49,10 +49,10 @@ const Portfolio = () => {
           <span className="largerPrint">P</span>royectos
         </Subtitle>
         <ul className="text-xs text-gray-400 leading-snug flex flex-col gap-3 cursor-pointer">
-          <li className="hover:text-yellow-select">Lorem </li>
-          <li className="hover:text-yellow-select">Lorem ipsum </li>
-          <li className="hover:text-yellow-select">Lorem </li>
-          <li className="hover:text-yellow-select">Lorem ipsum</li>
+          <li className="hover:text-yellow-select">Últimos proyectos </li>
+          <li className="hover:text-yellow-select">React / Next</li>
+          <li className="hover:text-yellow-select">Apis</li>
+          <li className="hover:text-yellow-select">Random</li>
         </ul>
         {proyects.map((proyect) => {
           return <Proyect key={proyect.name} name={`proyect-${proyect.name}`} img={proyect.img} />
