@@ -114,14 +114,14 @@ const About = () => {
           </Subtitle>
           <p className="text-xs font-normal text-gray-500 uppercase tracking-widest">Hola mundo!</p>
           <h3 className="font-bold text-[#181616] text-2xl">Soy Desarrolladora Fullstack.</h3>
-          <p className="text-xs font-semibold leading-snug">
+          <p className="text-sm font-semibold leading-snug">
             Desde que completé mis estudios en Coderhouse en 2022, he estado trabajando en proyectos interesantes y desafiantes. Estoy comprometida
             con el aprendizaje constante y la mejora de mis habilidades en desarrollo web.
           </p>
-          <p className="text-xs font-semibold leading-snug">
+          <p className="text-sm font-semibold leading-snug">
             Si deseas saber más sobre mí, puedes consultar mi
-            <a href="#"> Curriculum</a> o visitar mi perfil de
-            <a href="#"> Linkedin</a>.
+            <a href="https://drive.google.com/file/d/1mCc6CEEJLlmWOJxynBCl2aUjfyQidnCi/view?usp=sharing" target='_blank'> Curriculum</a> o visitar mi perfil de
+            <a href="https://www.linkedin.com/in/micaela-analia-jofre/" target='_blank'> Linkedin</a>.
           </p>
         </div>
         <div className="w-full lg:w-3/12 grid grid-cols-about-col gap-4 justify-center items-center p-10">
