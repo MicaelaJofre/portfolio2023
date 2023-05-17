@@ -4,6 +4,6 @@ type Props = {
 }
 
 const Title = ({ children, className }:Props) => {
-  return <h1 className={`${className} text-3xl lg:text-6xl text-gray-icon tracking-wide uppercase font-bold`}>{children}</h1>
+  return <h1 className={`${className} text-2x1 sm:text-3xl text-gray-icon tracking-widest uppercase font-bold`}>{children}</h1>
 }
 export default Title
