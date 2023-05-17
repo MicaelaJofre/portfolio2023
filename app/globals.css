@@ -20,6 +20,12 @@ a {
   text-decoration: none;
   font-size: 1.1em;
   font-weight: bold;
+  transition: all;
+  transition-duration: .3s;
+}
+
+a:hover{
+  transform: scale(1.1);
 }
 
 svg {
@@ -40,4 +46,13 @@ input::placeholder {
   font-weight: 800;
   color:  rgba(245, 158, 11, .8);
   text-decoration: underline;
+}
+
+.arrow{
+  transition: all;
+  transition-duration: .3s;
+}
+
+.arrow:hover{
+  transform: scale(1.1);
 }
