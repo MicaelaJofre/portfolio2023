@@ -9,11 +9,11 @@ type Props = {
 
 const ContactIcon = ({ Svg, name, link, href }: Props) => {
   return (
-    <div className="shadow-md p-3 flex flex-col justify-center items-center cursor-pointer">
-      <Svg width={20} height={20} color={'#181616'} />
-      <p>{name}</p>
-      <a className='text-sm w-36 text-center truncate' href={href}>{link}</a>
-    </div>
+      <a className='shadow-md p-2 cursor-pointer h-36 flex flex-col justify-center items-center text-sm text-center' target='_blank' href={href}>
+        <Svg width={30} height={30} color={'#181616'} />
+        <p className='capitalize font-medium mt-2 text-gray-icon'>{name}</p>
+        <p className='truncate w-11/12'>{link}</p>
+      </a>
   )
 }
 

@@ -22,7 +22,7 @@ const data = [
     name: 'linkedin',
     svg: Linkedin,
     link: 'www.linkedin.com/in/micaela-analia-jofre',
-    href: 'www.linkedin.com/in/micaela-analia-jofre'
+    href: 'https://www.linkedin.com/in/micaela-analia-jofre/'
   },
   {
     name: 'gitHub',
@@ -36,10 +36,14 @@ const Contact = () => {
   return (
     <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="flex w-10/12 items-center gap-10">
-        <Subtitle>
-          <span className="largerPrint">C</span>ontacto
-        </Subtitle>
-        <div className='grid grid-cols-contact-col w-1/2 gap-8'>
+        <div className='flex flex-col justify-center w-4/12 gap-1'>
+          <Subtitle>
+            <span className="largerPrint">C</span>ontacto
+          </Subtitle>
+          <p className='text-sm font-medium text-gray-500'>Escribime por cualquiera de los medios de contacto.</p>
+          <p className='text-sm font-medium text-gray-500'>Voy a estar esperando tu mensaje!</p>
+        </div>
+        <div className='w-full lg:w-6/12 grid grid-cols-contact-col gap-4 justify-center items-center p-2'>
           {data.map((d) => {
             return <ContactIcon key={d.name} Svg={d.svg} name={d.name} link={d.link} href={d.href} />
           })}
