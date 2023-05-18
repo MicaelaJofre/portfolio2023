@@ -1,19 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
 
-type StaticImageData = {
-  src: string
-}
 type Props = {
-  name: string
-  img: StaticImageData
+  title: string,
+  description: string,
+  url: string,
+  github: string,
+  img?: string
 }
 
-const Proyect = ({ img, name }: Props) => {
-  const imageProps = typeof img === 'string' ? { src: img } : img
+const Proyect = ({ img, title, description, url, github }: Props) => {
   return (
     <div className="shadow-md p-3 flex justify-center items-center arrow cursor-pointer">
-      <Image width={400} height={400} src={imageProps.src} alt={name} />
+      <Image width={400} height={400} src={img ?? ''} alt={title} />
     </div>
   )
 }
