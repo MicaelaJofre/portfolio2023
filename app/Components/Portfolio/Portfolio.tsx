@@ -43,6 +43,8 @@ const Portfolio = () => {
               description={proyect.description}
               github={proyect.github}
               url={proyect.url}
+              technologies={proyect.technologies}
+              gif={proyect.gif}
             />
           )
         })}
