@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         'yellow-select': 'rgba(245, 158, 11, .8)',
         'white-bg': '#f9f9f9',
-        'gray-icon': '#181616'
+        'gray-icon': '#181616',
+        'black-bg': 'rgb(0 0 0 / 42%)'
       },
       height: {
         'section-layout': '30em'
@@ -17,7 +18,8 @@ module.exports = {
         'contact-col': 'repeat(auto-fill, minmax(210px, 1fr))'
       },
       minHeight: {
-        section: '80%'
+        section: '80%',
+        modal: '70%'
       }
     }
   },
