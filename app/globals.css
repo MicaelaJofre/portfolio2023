@@ -50,7 +50,6 @@ input::placeholder {
 
 .arrow{
   transition: all;
-  transition-duration: .3s;
 }
 
 .arrow:hover{

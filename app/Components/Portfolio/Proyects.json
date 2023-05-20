@@ -1,93 +1,130 @@
 [
   {
     "title": "Message",
-    "description": "Este proyecto es una aplicación de mensajería instantánea en la que los usuarios pueden registrarse o iniciar sesión mediante un formulario o con su cuenta de Google. Los usuarios también pueden crear salas de chat y comunicarse con otros miembros de la sala. El propietario de la sala tiene la capacidad de eliminar las salas que haya creado. El proyecto se desarrollo con React Js, SASS y Firebase.",
+    "description": "Este proyecto es una aplicación de mensajería instantánea en la que los usuarios pueden registrarse o iniciar sesión mediante un formulario o con su cuenta de Google. Los usuarios también pueden crear salas de chat y comunicarse con otros miembros de la sala. El propietario de la sala tiene la capacidad de eliminar las salas que haya creado.",
+    "technologies": "El proyecto se desarrollo con React js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/message",
     "url": "https://micaelajofre.github.io/message/login",
-    "category": "react/next"
+    "img":  "/image/portfolio/message.jpeg",
+    "category": "react/next",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "App de tareas",
     "description": "",
+    "technologies": "El proyecto se desarrollo con Next js, Tailwind y MongoDB.",
     "github": "https://github.com/MicaelaJofre/task-app",
     "url": "",
-    "category": "api"
+    "img":  "/image/portfolio/apiTask.jpeg",
+    "category": "api",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Api de notas",
     "description": "",
+    "technologies": "El proyecto se desarrollo con Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/apiNotes",
     "url": "",
-    "category": "api"
+    "img":  "/image/portfolio/apiNotas.jpeg",
+    "category": "api",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Buscador de Películas",
     "description": "",
+    "technologies": "El proyecto se desarrollo con React js y Tailwind.",
     "github": "https://github.com/MicaelaJofre/movies",
     "url": "",
-    "category": "react/next"
+    "img":  "/image/portfolio/movie.jpeg",
+    "category": "react/next",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Servicios Libres",
     "description": "",
+    "technologies": "El proyecto se desarrollo con Next js, Tailwind, Node, Express y MongoDB",
     "github": "https://github.com/MicaelaJofre/servicios-libres",
     "url": "",
-    "category": "react/next"
+    "img":  "/image/portfolio/servLibre.jpeg",
+    "category": "react/next",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Lima",
-    "description": "Ecommerce creado para la venta de productos del hogar y deco. El proyecto consta de varias secciones donde el usuario va a poder visualizar los distintos productos y en donde podrá filtrar según sus preferencias. En cada producto se podrá ingresar a un detalle con más información del mismo y proseguir con la compra. Además, incluye un carrito de compras y un formulario para agendar los datos de la compra realizada. El sitio web fue desarrollado con React Js, CSS y Firebase.",
+    "description": "Ecommerce creado para la venta de productos del hogar y deco. El proyecto consta de varias secciones donde el usuario va a poder visualizar los distintos productos y en donde podrá filtrar según sus preferencias. En cada producto se podrá ingresar a un detalle con más información del mismo y proseguir con la compra. Además, incluye un carrito de compras y un formulario para agendar los datos de la compra realizada.",
+    "technologies": "El proyecto se desarrollo con React Js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/ecommercejofre",
     "url": "https://micaelajofre.github.io/ecommercejofre/",
-    "category": "react/next"
+    "img":  "/image/portfolio/lima.jpeg",
+    "category": "react/next",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Dreamed Day",
-    "description": "Sitio web creado para que el usuario pueda manejar una agenda de su boda. El sitio consta de un registro de usuario y una agenda personalizada con cuatro secciones donde podrá manejar la lista de invitados, el presupuesto, una lista de tareas pendientes y proveedores. El proyecto fue desarrollado con HTML, SASS, JavaScript vanilla y JQuery.",
+    "description": "Sitio web creado para que el usuario pueda manejar una agenda de su boda. El sitio consta de un registro de usuario y una agenda personalizada con cuatro secciones donde podrá manejar la lista de invitados, el presupuesto, una lista de tareas pendientes y proveedores.",
+    "technologies": "El proyecto se desarrollo con HTML, SASS, JavaScript vanilla y JQuery.",
     "github": "https://github.com/MicaelaJofre/Eventos",
     "url": "https://micaelajofre.github.io/Eventos/",
-    "category": "random"
+    "img":  "/image/portfolio/evento.jpeg",
+    "category": "random",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Cristina Greño",
-    "description": "Trabajo freelance para artista plástica Argentina. El sitio web consta de seis secciones, incluido el home, donde el usuario va a poder navegar por la galería de cuadros y cursos que ofrece el cliente. Además podrá conocer más de la historia de la artista, así como ver las recomendaciones de la misma. Por último, se ofrece un formulario de contacto y las diferentes redes sociales, que a su vez, se puede acceder en todas las secciones. El proyecto se desarrollo con HTML, Css, Bootstrap y Python.",
+    "description": "Trabajo freelance para artista plástica Argentina. El sitio web consta de seis secciones, incluido el home, donde el usuario va a poder navegar por la galería de cuadros y cursos que ofrece el cliente. Además podrá conocer más de la historia de la artista, así como ver las recomendaciones de la misma. Por último, se ofrece un formulario de contacto y las diferentes redes sociales, que a su vez, se puede acceder en todas las secciones.",
+    "technologies": "El proyecto se desarrollo con HTML, CSS, Bootstrap y Python.",
     "github": "https://github.com/MicaelaJofre/CristinaGreno",
     "url": "https://www.xn--cristinagreo-khb.com/",
-    "img":  "/image/portfolio/coder1.jpg",
-    "category": "random"
+    "img":  "/image/portfolio/cristina.jpeg",
+    "category": "random",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Rick and Morty Plugin",
     "description": "Plugin para WordPress que muestra los personajes y sus respectivos detalles de la serie de animación Rick y Morty. El proyecto se desarrollo con CSS, JavaScript y Python.",
+    "technologies": "El proyecto se desarrollo CSS, JavaScript y Python.",
     "github": "https://github.com/MicaelaJofre/RickandMortyPlugin",
     "url": "",
-    "category": "random"
+    "img":  "/image/portfolio/rickMorty.jpeg",
+    "category": "random",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Angel Pelletan",
     "description": "",
+    "technologies": "El proyecto se desarrollo HTML, CSS y JavaScript.",
     "github": "https://github.com/MicaelaJofre/porfolioAngel",
     "url": "",
-    "category": "random"
+    "img":  "/image/portfolio/angel.jpeg",
+    "category": "random",
+    "gif": "/video/360gif.gif"
   },  
   {
     "title": "Api para blogs",
     "description": "",
+    "technologies": "El proyecto se desarrollo con React js, CSS, Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/fullstackopen-part4",
     "url": "",
-    "category": "api"
+    "img":  "/image/portfolio/apiBlog.jpeg",
+    "category": "api",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "Experiencia 360",
     "description": "",
+    "technologies": "El proyecto se desarrollo con HTML, CSS, JavaScript y A-Frame.",
     "github": "https://github.com/MicaelaJofre/experiencia360",
     "url": "https://micaelajofre.github.io/experiencia360/",
-    "category": "random"
+    "img":  "/image/portfolio/360img.jpeg",
+    "category": "random",
+    "gif": "/video/360gif.gif"
   },
   {
     "title": "",
     "description": "",
+    "technologies": "",
     "github": "",
-    "url": ""
+    "url": "",
+    "gif": "/video/360gif.gif"
   }
 ]
