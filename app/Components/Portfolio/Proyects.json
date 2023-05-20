@@ -2,117 +2,117 @@
   {
     "title": "Message",
     "description": "Este proyecto es una aplicación de mensajería instantánea en la que los usuarios pueden registrarse o iniciar sesión mediante un formulario o con su cuenta de Google. Los usuarios también pueden crear salas de chat y comunicarse con otros miembros de la sala. El propietario de la sala tiene la capacidad de eliminar las salas que haya creado.",
-    "technologies": "El proyecto se desarrollo con React js, SASS y Firebase.",
+    "technologies": "El proyecto se desarrolló con React js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/message",
     "url": "https://micaelajofre.github.io/message/login",
     "img":  "/image/portfolio/message.jpeg",
     "category": "react/next",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/messageGif.gif"
   },
   {
     "title": "App de tareas",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con Next js, Tailwind y MongoDB.",
+    "description": "La aplicación para la creación de tareas está desarrollada íntegramente con Next.js, tanto en el frontend como en el backend. Se utiliza una API construida en Next.js y se aprovecha MongoDB como base de datos. Con esta aplicación, los usuarios pueden realizar operaciones esenciales en tareas, tales como obtener una lista completa de todas ellas, crear nuevas tareas, actualizar las existentes y eliminar tareas.",
+    "technologies": "El proyecto se desarrolló con Next js, Tailwind y MongoDB.",
     "github": "https://github.com/MicaelaJofre/task-app",
     "url": "",
     "img":  "/image/portfolio/apiTask.jpeg",
     "category": "api",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/apiTaskGif.gif"
   },
   {
     "title": "Api de notas",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con Node, Express y MOngoDB.",
+    "description": "La API REST desarrollada permite a los usuarios realizar operaciones básicas en notas. Los usuarios pueden obtener una lista de todas las notas, crear nuevas notas, actualizar notas existentes y eliminar notas. Es una herramienta útil para implementar la gestión de notas en diferentes aplicaciones o sistemas.",
+    "technologies": "El proyecto se desarrolló con Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/apiNotes",
     "url": "",
     "img":  "/image/portfolio/apiNotas.jpeg",
     "category": "api",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/apiNoteGif.gif"
   },
   {
     "title": "Buscador de Películas",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con React js y Tailwind.",
+    "description": "El proyecto consiste en el desarrollo de un sitio web dedicado a la búsqueda de películas. Esta plataforma proporciona a los usuarios una forma conveniente de explorar y descubrir películas de diversos géneros, años y categorías. El sitio web incluye funciones de búsqueda, filtros y brinda información detallada sobre cada película",
+    "technologies": "El proyecto se desarrolló con React js y Tailwind.",
     "github": "https://github.com/MicaelaJofre/movies",
     "url": "",
     "img":  "/image/portfolio/movie.jpeg",
     "category": "react/next",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/moviesGif.gif"
   },
   {
     "title": "Servicios Libres",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con Next js, Tailwind, Node, Express y MongoDB",
+    "description": "Servicios Libres es una aplicación que tiene como objetivo principal conectar a consumidores con proveedores de servicios. La aplicación cuenta con diversas secciones que permiten a los usuarios buscar, explorar y contratar los servicios que necesitan. Esta aplicación proporciona una plataforma conveniente y eficiente para que los consumidores encuentren los servicios que necesitan y para que los proveedores de servicio alcancen a una audiencia más amplia.",
+    "technologies": "El proyecto se desarrolló con Next js, Tailwind, Node, Express y MongoDB",
     "github": "https://github.com/MicaelaJofre/servicios-libres",
     "url": "",
     "img":  "/image/portfolio/servLibre.jpeg",
     "category": "react/next",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/servLibreGif.gif"
   },
   {
     "title": "Lima",
     "description": "Ecommerce creado para la venta de productos del hogar y deco. El proyecto consta de varias secciones donde el usuario va a poder visualizar los distintos productos y en donde podrá filtrar según sus preferencias. En cada producto se podrá ingresar a un detalle con más información del mismo y proseguir con la compra. Además, incluye un carrito de compras y un formulario para agendar los datos de la compra realizada.",
-    "technologies": "El proyecto se desarrollo con React Js, SASS y Firebase.",
+    "technologies": "El proyecto se desarrolló con React Js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/ecommercejofre",
     "url": "https://micaelajofre.github.io/ecommercejofre/",
     "img":  "/image/portfolio/lima.jpeg",
     "category": "react/next",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/limaGif.gif"
   },
   {
     "title": "Dreamed Day",
     "description": "Sitio web creado para que el usuario pueda manejar una agenda de su boda. El sitio consta de un registro de usuario y una agenda personalizada con cuatro secciones donde podrá manejar la lista de invitados, el presupuesto, una lista de tareas pendientes y proveedores.",
-    "technologies": "El proyecto se desarrollo con HTML, SASS, JavaScript vanilla y JQuery.",
+    "technologies": "El proyecto se desarrolló con HTML, SASS, JavaScript vanilla y JQuery.",
     "github": "https://github.com/MicaelaJofre/Eventos",
     "url": "https://micaelajofre.github.io/Eventos/",
     "img":  "/image/portfolio/evento.jpeg",
     "category": "random",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/eventoGif.gif"
   },
   {
     "title": "Cristina Greño",
     "description": "Trabajo freelance para artista plástica Argentina. El sitio web consta de seis secciones, incluido el home, donde el usuario va a poder navegar por la galería de cuadros y cursos que ofrece el cliente. Además podrá conocer más de la historia de la artista, así como ver las recomendaciones de la misma. Por último, se ofrece un formulario de contacto y las diferentes redes sociales, que a su vez, se puede acceder en todas las secciones.",
-    "technologies": "El proyecto se desarrollo con HTML, CSS, Bootstrap y Python.",
+    "technologies": "El proyecto se desarrolló con HTML, CSS, Bootstrap y Python.",
     "github": "https://github.com/MicaelaJofre/CristinaGreno",
     "url": "https://www.xn--cristinagreo-khb.com/",
     "img":  "/image/portfolio/cristina.jpeg",
     "category": "random",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/cristinaGif.gif"
   },
   {
     "title": "Rick and Morty Plugin",
-    "description": "Plugin para WordPress que muestra los personajes y sus respectivos detalles de la serie de animación Rick y Morty. El proyecto se desarrollo con CSS, JavaScript y Python.",
-    "technologies": "El proyecto se desarrollo CSS, JavaScript y Python.",
+    "description": "Plugin creado para WordPress que permite mostrar de manera sencilla y organizada los personajes y sus respectivos detalles de la popular serie de animación Rick y Morty. Con este plugin, los usuarios pueden acceder a información detallada sobre cada personaje, incluyendo su nombre, descripción, imagen y otros detalles relevantes. ",
+    "technologies": "El proyecto se desarrolló CSS, JavaScript y Python.",
     "github": "https://github.com/MicaelaJofre/RickandMortyPlugin",
     "url": "",
     "img":  "/image/portfolio/rickMorty.jpeg",
     "category": "random",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/rickMortyGif.gif"
   },
   {
     "title": "Angel Pelletan",
-    "description": "",
-    "technologies": "El proyecto se desarrollo HTML, CSS y JavaScript.",
+    "description": "El portfolio fue creado específicamente para un ingeniero de sonido. Se trata de una landing page que incluye diversas secciones, como la presentación personal, los servicios ofrecidos, una galería de proyectos realizados y una sección de contacto. Esta página tiene como objetivo mostrar de manera efectiva las habilidades y experiencia del cliente, brindando a los visitantes una visión completa de su trabajo y facilitando el contacto para posibles colaboraciones o contrataciones.",
+    "technologies": "El proyecto se desarrolló HTML, CSS y JavaScript.",
     "github": "https://github.com/MicaelaJofre/porfolioAngel",
     "url": "",
     "img":  "/image/portfolio/angel.jpeg",
     "category": "random",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/angel.gif"
   },  
   {
     "title": "Api para blogs",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con React js, CSS, Node, Express y MOngoDB.",
+    "description": "API REST desarrollada con el objetivo de permitir a los usuarios llevar a cabo operaciones esenciales en la creación, actualización y eliminación de blogs. Esta API cuenta con funcionalidades de autenticación de usuarios mediante JSON Web Tokens (JWT) y utiliza MongoDB como base de datos. Permitiendo gestionar blogs de manera eficiente y segura, garantizando la autenticación y autorización adecuadas.",
+    "technologies": "El proyecto se desarrolló con React js, CSS, Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/fullstackopen-part4",
     "url": "",
     "img":  "/image/portfolio/apiBlog.jpeg",
     "category": "api",
-    "gif": "/video/360gif.gif"
+    "gif": "/video/apiBlogGif.gif"
   },
   {
     "title": "Experiencia 360",
-    "description": "",
-    "technologies": "El proyecto se desarrollo con HTML, CSS, JavaScript y A-Frame.",
+    "description": "El proyecto consiste en un recorrido virtual 360 que ofrece una experiencia inmersiva de dos habitaciones de una casa. Los usuarios pueden explorar las habitaciones y disfrutar de un recorrido dinámico, donde podrán ver indicadores con información relevante. Además, se incorporan funciones adicionales como sonido ambiental y enriquecimiento con redes sociales y Google Maps para una experiencia más completa.",
+    "technologies": "El proyecto se desarrolló con HTML, CSS, JavaScript y A-Frame.",
     "github": "https://github.com/MicaelaJofre/experiencia360",
     "url": "https://micaelajofre.github.io/experiencia360/",
     "img":  "/image/portfolio/360img.jpeg",
