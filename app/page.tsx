@@ -5,7 +5,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 
 export default function Home() {
   return (
-    <main className="w-full h-auto pb-16 flex flex-col justify-center items-center gap-20 pt-16 relative">
+    <main className="w-full h-auto pb-16 flex flex-col justify-center items-center gap-20 pt-16">
       <Hero />
       <About />
       <Portfolio />
