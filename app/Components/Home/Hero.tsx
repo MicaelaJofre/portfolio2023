@@ -7,7 +7,7 @@ import Title from '../Title'
 
 const Hero = () => {
   return (
-    <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex lg:flex-row flex-col justify-between bg-yellow-500">
+    <section id="home" title="home" className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex lg:flex-row flex-col justify-between bg-yellow-500">
       <article className="flex flex-col p-4 lg:pl-20 justify-center gap-10 lg:gap-7 w-full min-h-section">
         <Title>
           <span className="text-gray-100 text-5xl lg:text-8xl underline decoration-solid">M</span>icaela Jofre
