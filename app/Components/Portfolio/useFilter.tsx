@@ -39,7 +39,6 @@ export const useFilter = ({ filter }: UserData) => {
     getproyects()
   }, [filter])
 
-  console.log(proyects)
   return {
     proyects,
     getproyects

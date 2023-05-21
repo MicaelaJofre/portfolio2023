@@ -34,7 +34,7 @@ const data = [
 
 const Contact = () => {
   return (
-    <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
+    <section title='contact' id='contact' className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="flex w-10/12 items-center gap-10">
         <div className='flex flex-col justify-center w-4/12 gap-1'>
           <Subtitle>

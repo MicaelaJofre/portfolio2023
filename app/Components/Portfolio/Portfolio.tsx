@@ -12,10 +12,9 @@ const Portfolio = () => {
     const value = e.currentTarget.textContent ?? ''
     setFilter(value.toString())
   }
-  console.log(filter)
 
   return (
-    <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
+    <section title='portfolio' id='portfolio' className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="grid grid-cols-portfolio-col justify-center w-10/12 items-center gap-5">
         <Subtitle>
           <span className="largerPrint">P</span>royectos
