@@ -1,3 +1,5 @@
+'use client'
+
 /* import GitHub from '../Icons/IconSocial/GitHub' */
 import BootstrapIcon from '../Icons/IconsAbout/BootstrapIcon'
 import CssIcon from '../Icons/IconsAbout/CssIcon'
@@ -106,7 +108,7 @@ const icons = [
 
 const About = () => {
   return (
-    <section className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
+    <section id="about" title="about" className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="flex justify-center items-center w-full lg:w-11/12 gap-20">
         <div className="flex flex-col justify-center w-7/12 gap-1">
           <Subtitle>
@@ -114,11 +116,11 @@ const About = () => {
           </Subtitle>
           <p className="text-xs font-normal text-gray-500 uppercase tracking-widest">Hola mundo!</p>
           <h3 className="font-bold text-[#181616] text-2xl">Soy Desarrolladora Fullstack.</h3>
-          <p className="text-sm font-semibold leading-snug">
+          <p className="text-sm text-gray-600 font-semibold leading-snug">
             Desde que completé mis estudios en Coderhouse en 2022, he estado trabajando en proyectos interesantes y desafiantes. Estoy comprometida
             con el aprendizaje constante y la mejora de mis habilidades en desarrollo web.
           </p>
-          <p className="text-sm font-semibold leading-snug">
+          <p className="text-sm text-gray-600 font-semibold leading-snug">
             Si deseas saber más sobre mí, puedes consultar mi
             <a href="https://drive.google.com/file/d/1mCc6CEEJLlmWOJxynBCl2aUjfyQidnCi/view?usp=sharing" target='_blank'> Curriculum</a> o visitar mi perfil de
             <a href="https://www.linkedin.com/in/micaela-analia-jofre/" target='_blank'> Linkedin</a>.
