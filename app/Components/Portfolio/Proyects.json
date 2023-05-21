@@ -4,7 +4,7 @@
     "description": "Este proyecto es una aplicación de mensajería instantánea en la que los usuarios pueden registrarse o iniciar sesión mediante un formulario o con su cuenta de Google. Los usuarios también pueden crear salas de chat y comunicarse con otros miembros de la sala. El propietario de la sala tiene la capacidad de eliminar las salas que haya creado.",
     "technologies": "El proyecto se desarrolló con React js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/message",
-    "url": "https://micaelajofre.github.io/message/login",
+    "url": "https://micaelajofre.github.io/message/",
     "img":  "/image/portfolio/message.jpeg",
     "category": "react/next",
     "gif": "/video/messageGif.gif"
@@ -34,7 +34,7 @@
     "description": "El proyecto consiste en el desarrollo de un sitio web dedicado a la búsqueda de películas. Esta plataforma proporciona a los usuarios una forma conveniente de explorar y descubrir películas de diversos géneros, años y categorías. El sitio web incluye funciones de búsqueda, filtros y brinda información detallada sobre cada película",
     "technologies": "El proyecto se desarrolló con React js y Tailwind.",
     "github": "https://github.com/MicaelaJofre/movies",
-    "url": "",
+    "url": "https://micaelajofre.github.io/movies/",
     "img":  "/image/portfolio/movie.jpeg",
     "category": "react/next",
     "gif": "/video/moviesGif.gif"
@@ -117,14 +117,6 @@
     "url": "https://micaelajofre.github.io/experiencia360/",
     "img":  "/image/portfolio/360img.jpeg",
     "category": "random",
-    "gif": "/video/360gif.gif"
-  },
-  {
-    "title": "",
-    "description": "",
-    "technologies": "",
-    "github": "",
-    "url": "",
     "gif": "/video/360gif.gif"
   }
 ]
