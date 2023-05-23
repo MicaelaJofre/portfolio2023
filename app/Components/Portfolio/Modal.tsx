@@ -21,11 +21,11 @@ const Modal = ({ title, description, url, github, technologies, gif, handleModal
           <h2 className="mt-2 font-black text-sm uppercase">{title}</h2>
           <p className="md:mt-2 md:px-10 text-xs block">{description}</p>
           <p className="mt-2 block text-xs font-semibold">{technologies}</p>
-          <a className="mt-3 inline-block w-10/12 bg-black py-1 text-sm font-bold uppercase tracking-widest text-white" href={github} target='_blank'>
+          <a className="link mt-3 inline-block w-10/12 bg-black py-1 text-sm font-bold uppercase tracking-widest text-white" href={github} target='_blank'>
             GitHub
           </a>
           {url ? (
-            <a className="mt-2 inline-block w-10/12 bg-black py-1 text-sm font-bold uppercase tracking-widest text-white" href={url} target='_blank'>
+            <a className="link mt-2 inline-block w-10/12 bg-black py-1 text-sm font-bold uppercase tracking-widest text-white" href={url} target='_blank'>
               Sitio web
             </a>
           ) : null}
