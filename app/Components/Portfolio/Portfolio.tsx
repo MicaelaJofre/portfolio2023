@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Subtitle from '../Subtitle'
 import Proyect from './Proyect'
-import { useFilter } from './useFilter'
+import { useFilter } from './Hooks/useFilter'
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('')
@@ -14,7 +14,7 @@ const Portfolio = () => {
   }
 
   return (
-    <section title='portfolio' id='portfolio' className="w-11/12 lg:w-10/12 mt-5 h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
+    <section className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 h-full py-12 lg:py-0 lg:h-section-layout shadow-lg flex justify-center items-center bg-white-bg">
       <article className="grid grid-cols-portfolio-col justify-center w-10/12 items-center gap-5">
         <Subtitle>
           <span className="largerPrint">P</span>royectos
