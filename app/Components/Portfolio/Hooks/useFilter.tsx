@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import Proyects from './Proyects.json'
+import Proyects from '../Proyects.json'
 
 type UserData = {
   filter?: string
