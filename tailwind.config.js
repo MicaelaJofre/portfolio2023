@@ -15,11 +15,20 @@ module.exports = {
       gridTemplateColumns: {
         'about-col': 'repeat(auto-fill, minmax(40px, 1fr))',
         'portfolio-col': 'repeat(auto-fill, minmax(200px, 1fr))',
-        'contact-col': 'repeat(auto-fill, minmax(210px, 1fr))'
+        'contact-2x1': 'repeat(auto-fill, minmax(170px, 1fr))',
+        'contact-lg': 'repeat(auto-fill, minmax(160px, 1fr))',
+        'contact-md': 'repeat(auto-fill, minmax(120px, 1fr))'
       },
       minHeight: {
         section: '80%',
-        modal: '70%'
+        modal: '70%',
+        lgSection: '80vh'
+      },
+      width: {
+        section: '50vw'
+      },
+      screens: {
+        '2x1': '1800px'
       }
     }
   },
