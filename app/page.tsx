@@ -1,4 +1,5 @@
 import About from './Components/About/About'
+import Certificates from './Components/Certificates/Certificates'
 import Contact from './Components/Contact/Contact'
 import Hero from './Components/Home/Hero'
 import Portfolio from './Components/Portfolio/Portfolio'
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
       <div id="portfolio" title="portfolio" className='pt-14 w-full 2x1:w-9/12 flex justify-center items-center'>
         <Portfolio />
+      </div>
+      <div id="certificates" title="certificates" className='pt-14 w-full 2x1:w-9/12 flex justify-center items-center'>
+        <Certificates/>
       </div>
       <div id="contact" title="contact" className='pt-11 w-full 2x1:w-9/12 flex justify-center items-center'>
         <Contact/>
