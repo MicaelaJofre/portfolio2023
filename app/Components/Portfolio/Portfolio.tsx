@@ -27,7 +27,7 @@ const Portfolio = () => {
             React / Next
           </li>
           <li className="hover:text-yellow-select" onClick={handleChange}>
-            Apis
+            Apis / Base de datos
           </li>
           <li className="hover:text-yellow-select" onClick={handleChange}>
             Random

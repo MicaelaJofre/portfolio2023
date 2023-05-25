@@ -23,7 +23,7 @@ export const useFilter = ({ filter }: UserData) => {
         setproyects(newProyects.current)
         break
 
-      case 'Apis':
+      case 'Apis / Base de datos':
         newProyects.current = Proyects.filter((proyect) => proyect.category === 'api')
         setproyects(newProyects.current)
         break
