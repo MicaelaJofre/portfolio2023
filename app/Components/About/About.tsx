@@ -1,5 +1,6 @@
 'use client'
 
+import { useNavIcon } from '../Header/Navbar/Hooks/useNavIcon'
 /* import GitHub from '../Icons/IconSocial/GitHub' */
 import BootstrapIcon from '../Icons/IconsAbout/BootstrapIcon'
 import CssIcon from '../Icons/IconsAbout/CssIcon'
@@ -107,8 +108,9 @@ const icons = [
 ]
 
 const About = () => {
+  const { sectionRef } = useNavIcon()
   return (
-    <section className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-12 lg:py-0 bg-white-bg">
+    <section ref={sectionRef} className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-12 lg:py-0 bg-white-bg">
       <article className="w-10/12 h-section-layout 2x1:h-lgSection flex lg:flex-row flex-col justify-center lg:justify-between">
         <div className="flex flex-col justify-center w-full lg:w-6/12 2x1:w-7/12 gap-1">
           <Subtitle>
@@ -122,8 +124,20 @@ const About = () => {
           </p>
           <p className="text-sm text-gray-600 font-semibold leading-snug">
             Si deseas saber más sobre mí, puedes consultar mi
-            <a className='link text-yellow-select font-semibold' href="https://drive.google.com/file/d/1mCc6CEEJLlmWOJxynBCl2aUjfyQidnCi/view?usp=sharing" target='_blank'> Curriculum</a> o visitar mi perfil de
-            <a className='link text-yellow-select font-semibold' href="https://www.linkedin.com/in/micaela-analia-jofre/" target='_blank'> Linkedin</a>.
+            <a
+              className="link text-yellow-select font-semibold"
+              href="https://drive.google.com/file/d/1mCc6CEEJLlmWOJxynBCl2aUjfyQidnCi/view?usp=sharing"
+              target="_blank"
+            >
+              {' '}
+              Curriculum
+            </a>{' '}
+            o visitar mi perfil de
+            <a className="link text-yellow-select font-semibold" href="https://www.linkedin.com/in/micaela-analia-jofre/" target="_blank">
+              {' '}
+              Linkedin
+            </a>
+            .
           </p>
         </div>
         <div className="w-full sm:w-10/12 lg:w-3/12 grid grid-cols-about-col gap-4 justify-center items-center py-5 2x1:p-10">

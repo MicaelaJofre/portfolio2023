@@ -32,8 +32,9 @@ const iconsnav = [
 
 const Navbar = () => {
   const { handleIcon, selectedIcon } = useNavIcon()
+
   return (
-    <nav className="fixed w-full px-2 md:p-0">
+    <nav id="navbar" className="fixed w-full px-2 md:p-0">
       <ul className="flex md:gap-8 gap-5  justify-center p-4">
         {iconsnav.map(({ name, svg }, index) => {
           return <NavbarIcons key={'navbar-' + name} name={name} Svg={svg} index={index} active={name === selectedIcon} handleIcon={handleIcon} />
