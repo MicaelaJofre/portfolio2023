@@ -40,8 +40,8 @@ const Contact = () => {
           <Subtitle>
             <span className="largerPrint">C</span>ontacto
           </Subtitle>
-          <p className='text-sm font-medium text-gray-500'>Escribime por cualquiera de los medios de contacto.</p>
-          <p className='text-sm font-medium text-gray-500'>Voy a estar esperando tu mensaje!</p>
+          <p className='text-sm font-medium text-gray-600'>Escribime por cualquiera de los medios de contacto.</p>
+          <p className='text-sm font-medium text-gray-600'>Voy a estar esperando tu mensaje!</p>
         </div>
         <div className='w-full md:w-6/12 grid grid-cols-contact-md lg:grid-cols-contact-lg 2x1:grid-cols-contact-2x1 gap-4 justify-center items-center p-2'>
           {data.map((d) => {
