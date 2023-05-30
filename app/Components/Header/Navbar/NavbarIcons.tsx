@@ -4,14 +4,13 @@ import { IconProps } from '@/app/Components/Icons/IconsTypes'
 type Props = {
   name: string
   Svg: ({ color, width, height }: IconProps) => JSX.Element
-  index: number
-  handleIcon: ({ index, name }: { index: number; name: string }) => void
+  handleIcon: ({ name }: { name: string }) => void
   active: boolean
 }
 
-const NavbarIcons = ({ name, Svg, index, handleIcon, active }: Props) => {
+const NavbarIcons = ({ name, Svg, handleIcon, active }: Props) => {
   const handleClick = () => {
-    handleIcon({ name, index })
+    handleIcon({ name })
   }
 
   return (

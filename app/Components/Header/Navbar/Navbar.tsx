@@ -31,13 +31,14 @@ const iconsnav = [
 ]
 
 const Navbar = () => {
-  const { handleIcon, selectedIcon } = useNavIcon()
+  const { selectedIcon, handleIcon } = useNavIcon()
+  console.log(selectedIcon)
 
   return (
     <nav id="navbar" className="fixed w-full px-2 md:p-0">
       <ul className="flex md:gap-8 gap-5  justify-center p-4">
-        {iconsnav.map(({ name, svg }, index) => {
-          return <NavbarIcons key={'navbar-' + name} name={name} Svg={svg} index={index} active={name === selectedIcon} handleIcon={handleIcon} />
+        {iconsnav.map(({ name, svg }) => {
+          return <NavbarIcons key={'navbar-' + name} name={name} Svg={svg} active={name === selectedIcon} handleIcon={handleIcon}/>
         })}
       </ul>
     </nav>

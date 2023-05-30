@@ -15,13 +15,9 @@ export const metadata = {
       { url: '/favicon-16x16.png', type: 'image/png' },
       { url: '/favicon-32x32.png', type: 'image/png' }
     ],
-    apple: [
-      { url: '/apple-icon-x3.png', sizes: '180x180', type: '/apple-touch-icon.png' }
-    ]
+    apple: [{ url: '/apple-icon-x3.png', sizes: '180x180', type: '/apple-touch-icon.png' }]
   },
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'ffffff' }
-  ]
+  themeColor: [{ media: '(prefers-color-scheme: light)', color: 'ffffff' }]
 }
 
 const poppins = Poppins({
