@@ -40,7 +40,6 @@ export const useFilter = ({ filter }: UserData) => {
   }, [filter])
 
   return {
-    proyects,
-    getproyects
+    proyects
   }
 }
