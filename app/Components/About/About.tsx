@@ -1,7 +1,3 @@
-'use client'
-
-import { useNavIcon } from '../Header/Navbar/Hooks/useNavIcon'
-/* import GitHub from '../Icons/IconSocial/GitHub' */
 import BootstrapIcon from '../Icons/IconsAbout/BootstrapIcon'
 import CssIcon from '../Icons/IconsAbout/CssIcon'
 import CypressIcon from '../Icons/IconsAbout/CypressIcon'
@@ -20,6 +16,7 @@ import SassIcon from '../Icons/IconsAbout/SassIcon'
 import tailwindicon from '../Icons/IconsAbout/TailwindIcon'
 import TypeScriptIcon from '../Icons/IconsAbout/TypeScriptIcon'
 /* import VisualIcon from '../Icons/IconsAbout/VisualIcon' */
+/* import GitHub from '../Icons/IconSocial/GitHub' */
 import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
 import Subtitle from '../Subtitle'
 import AboutIcon from './AboutIcon'
@@ -108,9 +105,8 @@ const icons = [
 ]
 
 const About = () => {
-  const { sectionRef } = useNavIcon()
   return (
-    <section ref={sectionRef} className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-12 lg:py-0 bg-white-bg">
+    <section className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-12 lg:py-0 bg-white-bg">
       <article className="w-10/12 h-section-layout 2x1:h-lgSection flex lg:flex-row flex-col justify-center lg:justify-between">
         <div className="flex flex-col justify-center w-full lg:w-6/12 2x1:w-7/12 gap-1">
           <Subtitle>

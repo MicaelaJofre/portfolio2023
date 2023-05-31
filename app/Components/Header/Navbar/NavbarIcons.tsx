@@ -1,23 +1,17 @@
-'use client'
 import { IconProps } from '@/app/Components/Icons/IconsTypes'
 
 type Props = {
   name: string
   Svg: ({ color, width, height }: IconProps) => JSX.Element
-  handleIcon: ({ name }: { name: string }) => void
-  active: boolean
+  target: string
 }
 
-const NavbarIcons = ({ name, Svg, handleIcon, active }: Props) => {
-  const handleClick = () => {
-    handleIcon({ name })
-  }
-
+const NavbarIcons = ({ name, Svg, target }: Props) => {
   return (
     <a
       href={`#${name}`}
-      className={active ? 'rounded-full p-2 bg-yellow-500 shadow-xl z-20 arrow' : 'rounded-full p-2 bg-white-bg shadow-xl  z-20 arrow'}
-      onClick={handleClick}
+      id={target}
+      className='rounded-full p-2 shadow-xl z-20 arrow bg-gray-50'
     >
       <Svg width={17} height={17} color={'#181616'} />
     </a>
