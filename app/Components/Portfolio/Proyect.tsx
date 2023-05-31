@@ -22,7 +22,7 @@ const Proyect = ({ img, title, description, url, github, technologies, gif }: Pr
 
   return (
     <article>
-      <div onClick={handleModal} className="shadow-md px-3 py-1 flex justify-center arrow cursor-pointer flex-col gap-1">
+      <div onClick={handleModal} className="shadow-md px-3 py-1 flex justify-center arrow cursor-pointer flex-col gap-1  transition-all duration-1000">
         <Image width={400} height={400} src={img ?? ''} alt={title} />
         <p className="text-xs font-semibold text-gray-400 hover:text-yellow-select bg-white">Ver más</p>
       </div>
