@@ -8,14 +8,18 @@ type Props = {
   github: string
   technologies: string
   gif: string
-  handleModal: () => void
+  handleModal: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 }
 
 const Modal = ({ title, description, url, github, technologies, gif, handleModal }: Props) => {
+  const stopPropagation = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    e.stopPropagation()
+  }
+
   return (
-    <div className="fixed top-0 left-0 flex justify-center items-center w-full h-full bg-black-bg blur-2xl">
-      <div className="rounded-lg items-center shadow-2xl w-11/12 md:w-6/12 2xl:w-6/12 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative">
-        <Image width={30} height={30} src={close} alt='close' onClick={handleModal} className="absolute right-4 top-2 flex justify-end cursor-pointer font-extrabold text-yellow-select text-2xl"/>
+    <div id='bg-modal' className="fixed top-0 left-0 flex justify-center items-center w-full h-full bg-black-bg" onClick={handleModal}>
+      <div className="rounded-lg items-center shadow-2xl w-11/12 md:w-6/12 2xl:w-6/12 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative" onClick={stopPropagation}>
+        <Image id='img-modal' width={30} height={30} src={close} alt='close' onClick={handleModal} className="absolute right-4 top-2 flex justify-end cursor-pointer font-extrabold text-yellow-select text-2xl"/>
         <Image className="w-full h-72 rounded-tl-lg rounded-tr-lg object-cover" width={400} height={400} src={gif} alt={title} />
         <div className="p-4 text-center sm:p-2 md:col-span-2 lg:p-4">
           <h2 className="mt-2 font-black text-sm uppercase">{title}</h2>

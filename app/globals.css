@@ -62,6 +62,10 @@ input::placeholder {
   background-repeat: no-repeat;
 }
 
+#bg-modal {
+  backdrop-filter: blur(2px);
+}
+
 @media screen and (max-width: 770px){
   .hero{
     background-position: left;
