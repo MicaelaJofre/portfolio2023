@@ -16,7 +16,7 @@ const data = [
     name: 'whatsApp',
     svg: WhatsApp,
     link: '261-3041445',
-    href: 'https://api.whatsapp.com/send?phone=5492613041445&text=Hola, estoy interesado en '
+    href: 'https://api.whatsapp.com/send?phone=5492613041445'
   },
   {
     name: 'linkedin',

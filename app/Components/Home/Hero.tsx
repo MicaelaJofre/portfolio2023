@@ -24,7 +24,7 @@ const Hero = () => {
           <a className='link hover:bg-yellow-select rounded-lg' href="https://www.linkedin.com/in/micaela-analia-jofre/" target="_blank">
             <Linkedin width={30} height={30} color={'#181616'} />
           </a>
-          <a className='link hover:bg-yellow-select rounded-full' href="https://api.whatsapp.com/send?phone=5492613041445&text=Hola, estoy interesado en " target="_blank">
+          <a className='link hover:bg-yellow-select rounded-full' href="https://api.whatsapp.com/send?phone=5492613041445" target="_blank">
             <WhatsApp width={30} height={30} color={'#181616'} />
           </a>
           <a className='link hover:bg-yellow-select rounded-full' href="mailto:mkjofre@gmail.com" target="_blank">
