@@ -16,10 +16,10 @@ const Certificate = ({ title, description, school, link, date }: Props) => {
     setShow(!show)
   }
   return (
-    <div className='w-full'>
+    <div className='w-full cursor-pointer' onClick={handleShow}>
       <div className="shadow-md p-2 w-full flex justify-between items-center text-sm font-semibold text-gray-600">
         <h2>{title}</h2>
-        <Image onClick={handleShow} className={`cursor-pointer transition-all duration-1000 ${show ? 'rotate-180' : ''}`} width={20} height={20} alt="arrow" src={arrow} />
+        <Image className={`cursor-pointer transition-all duration-1000 ${show ? 'rotate-180' : ''}`} width={20} height={20} alt="arrow" src={arrow} />
       </div>
       <div className={`overflow-hidden transition-all duration-1000 ease-in-out p-2 w-full flex justify-between items-center ${show ? 'max-h-96' : 'max-h-0'}`}>
         {show ? (
