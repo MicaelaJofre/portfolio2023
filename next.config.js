@@ -1,5 +1,5 @@
 const nextConfig = {
-  reactStrictMode: true,
+  distDir: 'build',
   experimental: {
     appDir: true
   }
