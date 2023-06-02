@@ -88,17 +88,7 @@
     "img":  "/image/portfolio/rickMorty.jpeg",
     "category": "random",
     "gif": "/video/rickMortyGif.gif"
-  },
-  {
-    "title": "Angel Pelletan",
-    "description": "El portfolio fue creado específicamente para un ingeniero de sonido. Se trata de una landing page que incluye diversas secciones, como la presentación personal, los servicios ofrecidos, una galería de proyectos realizados y una sección de contacto. Esta página tiene como objetivo mostrar de manera efectiva las habilidades y experiencia del cliente, brindando a los visitantes una visión completa de su trabajo y facilitando el contacto para posibles colaboraciones o contrataciones.",
-    "technologies": "El proyecto se desarrolló HTML, CSS y JavaScript.",
-    "github": "https://github.com/MicaelaJofre/porfolioAngel",
-    "url": "",
-    "img":  "/image/portfolio/angel.jpeg",
-    "category": "random",
-    "gif": "/video/angel.gif"
-  },  
+  }, 
   {
     "title": "Api para blogs",
     "description": "API REST desarrollada con el objetivo de permitir a los usuarios llevar a cabo operaciones esenciales en la creación, actualización y eliminación de blogs. Esta API cuenta con funcionalidades de autenticación de usuarios mediante JSON Web Tokens (JWT) y utiliza MongoDB como base de datos. Permitiendo gestionar blogs de manera eficiente y segura, garantizando la autenticación y autorización adecuadas.",

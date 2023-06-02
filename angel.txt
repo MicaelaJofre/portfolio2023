@@ -1,0 +1,11 @@
+
+  {
+    "title": "Angel Pelletan",
+    "description": "El portfolio fue creado específicamente para un ingeniero de sonido. Se trata de una landing page que incluye diversas secciones, como la presentación personal, los servicios ofrecidos, una galería de proyectos realizados y una sección de contacto. Esta página tiene como objetivo mostrar de manera efectiva las habilidades y experiencia del cliente, brindando a los visitantes una visión completa de su trabajo y facilitando el contacto para posibles colaboraciones o contrataciones.",
+    "technologies": "El proyecto se desarrolló HTML, CSS y JavaScript.",
+    "github": "https://github.com/MicaelaJofre/porfolioAngel",
+    "url": "",
+    "img":  "/image/portfolio/angel.jpeg",
+    "category": "random",
+    "gif": "/video/angel.gif"
+  }, 
