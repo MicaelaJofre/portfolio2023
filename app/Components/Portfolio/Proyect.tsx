@@ -21,7 +21,7 @@ const Proyect = ({ img, title, description, url, github, technologies, gif }: Pr
     setLoader(true)
     setTimeout(() => {
       setLoader(false)
-    }, 300)
+    }, 1000)
   }
 
   const handleModal = () => {
