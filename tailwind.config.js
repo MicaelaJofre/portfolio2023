@@ -28,7 +28,8 @@ module.exports = {
         section: '50vw'
       },
       screens: {
-        '2x1': '1800px'
+        '2x1': '1800px',
+        xs: '400px'
       }
     }
   },

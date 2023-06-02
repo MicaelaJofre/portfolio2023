@@ -106,7 +106,7 @@ const icons = [
 
 const About = () => {
   return (
-    <section className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-12 lg:py-0 bg-white-bg">
+    <section className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 lg:mt-10 h-full flex justify-center items-center py-20 xs:py-3 md:py-0 lg:py-0 bg-white-bg">
       <article className="w-10/12 h-section-layout 2x1:h-lgSection flex lg:flex-row flex-col justify-center lg:justify-between">
         <div className="flex flex-col justify-center w-full lg:w-6/12 2x1:w-7/12 gap-1">
           <Subtitle>
