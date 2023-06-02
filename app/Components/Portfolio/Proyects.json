@@ -5,7 +5,7 @@
     "technologies": "El proyecto se desarrolló con React js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/message",
     "url": "https://micaelajofre.github.io/message/",
-    "img":  "/image/portfolio/message.jpeg",
+    "img":  "/image/portfolio/message.webp",
     "category": "react/next",
     "gif": "/video/messageGif.gif"
   },
@@ -15,7 +15,7 @@
     "technologies": "El proyecto se desarrolló con Next js, Tailwind y MongoDB.",
     "github": "https://github.com/MicaelaJofre/task-app",
     "url": "",
-    "img":  "/image/portfolio/apiTask.jpeg",
+    "img":  "/image/portfolio/apiTask.webp",
     "category": "api",
     "gif": "/video/apiTaskGif.gif"
   },
@@ -25,7 +25,7 @@
     "technologies": "El proyecto se desarrolló con Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/apiNotes",
     "url": "",
-    "img":  "/image/portfolio/apiNotas.jpeg",
+    "img":  "/image/portfolio/apiNotas.webp",
     "category": "api",
     "gif": "/video/apiNoteGif.gif"
   },
@@ -35,7 +35,7 @@
     "technologies": "El proyecto se desarrolló con React js y Tailwind.",
     "github": "https://github.com/MicaelaJofre/movies",
     "url": "https://micaelajofre.github.io/movies/",
-    "img":  "/image/portfolio/movie.jpeg",
+    "img":  "/image/portfolio/movie.webp",
     "category": "react/next",
     "gif": "/video/moviesGif.gif"
   },
@@ -45,7 +45,7 @@
     "technologies": "El proyecto se desarrolló con Next js, Tailwind, Node, Express y MongoDB",
     "github": "https://github.com/MicaelaJofre/servicios-libres",
     "url": "",
-    "img":  "/image/portfolio/servLibre.jpeg",
+    "img":  "/image/portfolio/servLibre.webp",
     "category": "react/next",
     "gif": "/video/servLibreGif.gif"
   },
@@ -55,7 +55,7 @@
     "technologies": "El proyecto se desarrolló con React Js, SASS y Firebase.",
     "github": "https://github.com/MicaelaJofre/ecommercejofre",
     "url": "https://micaelajofre.github.io/ecommercejofre/",
-    "img":  "/image/portfolio/lima.jpeg",
+    "img":  "/image/portfolio/lima.webp",
     "category": "react/next",
     "gif": "/video/limaGif.gif"
   },
@@ -65,7 +65,7 @@
     "technologies": "El proyecto se desarrolló con HTML, SASS, JavaScript vanilla y JQuery.",
     "github": "https://github.com/MicaelaJofre/Eventos",
     "url": "https://micaelajofre.github.io/Eventos/",
-    "img":  "/image/portfolio/evento.jpeg",
+    "img":  "/image/portfolio/evento.webp",
     "category": "random",
     "gif": "/video/eventoGif.gif"
   },
@@ -75,7 +75,7 @@
     "technologies": "El proyecto se desarrolló con HTML, CSS, Bootstrap y Python.",
     "github": "https://github.com/MicaelaJofre/CristinaGreno",
     "url": "https://www.xn--cristinagreo-khb.com/",
-    "img":  "/image/portfolio/cristina.jpeg",
+    "img":  "/image/portfolio/cristina.webp",
     "category": "random",
     "gif": "/video/cristinaGif.gif"
   },
@@ -85,7 +85,7 @@
     "technologies": "El proyecto se desarrolló CSS, JavaScript y Python.",
     "github": "https://github.com/MicaelaJofre/RickandMortyPlugin",
     "url": "",
-    "img":  "/image/portfolio/rickMorty.jpeg",
+    "img":  "/image/portfolio/rickMorty.webp",
     "category": "random",
     "gif": "/video/rickMortyGif.gif"
   }, 
@@ -95,7 +95,7 @@
     "technologies": "El proyecto se desarrolló con React js, CSS, Node, Express y MOngoDB.",
     "github": "https://github.com/MicaelaJofre/fullstackopen-part4",
     "url": "",
-    "img":  "/image/portfolio/apiBlog.jpeg",
+    "img":  "/image/portfolio/apiBlog.webp",
     "category": "api",
     "gif": "/video/apiBlogGif.gif"
   },
@@ -105,7 +105,7 @@
     "technologies": "El proyecto se desarrolló con HTML, CSS, JavaScript y A-Frame.",
     "github": "https://github.com/MicaelaJofre/experiencia360",
     "url": "https://micaelajofre.github.io/experiencia360/",
-    "img":  "/image/portfolio/360img.jpeg",
+    "img":  "/image/portfolio/360img.webp",
     "category": "random",
     "gif": "/video/360gif.gif"
   }
