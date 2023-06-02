@@ -15,8 +15,17 @@ type Props = {
 
 const Proyect = ({ img, title, description, url, github, technologies, gif }: Props) => {
   const [modal, setModal] = useState(false)
+  const [loader, setLoader] = useState(false)
+
+  const handleLoader = () => {
+    setLoader(true)
+    setTimeout(() => {
+      setLoader(false)
+    }, 300)
+  }
 
   const handleModal = () => {
+    handleLoader()
     setModal(!modal)
   }
 
@@ -35,6 +44,7 @@ const Proyect = ({ img, title, description, url, github, technologies, gif }: Pr
           technologies={technologies}
           gif={gif}
           handleModal={handleModal}
+          loader={loader}
         />
       ) : null}
     </article>
