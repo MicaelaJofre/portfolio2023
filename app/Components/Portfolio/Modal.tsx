@@ -23,7 +23,7 @@ const Modal = ({ title, description, url, github, technologies, gif, handleModal
           <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24"></div>
         ) : (
           <div
-            className="rounded-lg items-center shadow-2xl h-section-layout md:h-auto w-11/12 md:w-6/12 2xl:w-6/12 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative"
+            className="rounded-lg items-center shadow-2xl h-section-layout md:h-auto w-11/12 md:w-6/12 2xl:w-6/12 pb-2 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative overflow-y-auto"
             onClick={stopPropagation}
           >
             <Image
@@ -35,7 +35,7 @@ const Modal = ({ title, description, url, github, technologies, gif, handleModal
               onClick={handleModal}
               className="img-lazy absolute z-10 right-4 top-2 flex justify-end cursor-pointer font-extrabold text-yellow-select text-2xl"
             />
-            <video loop autoPlay muted width={400} height={400} className="w-full h-72 rounded-tl-lg rounded-tr-lg object-cover">
+            <video loop autoPlay muted width={400} height={400} className="w-full h-72 rounded-tl-lg rounded-tr-lg object-cover aspect-video">
               <source src={gif} type="video/mp4" />
             </video>
             <div className="p-4 text-center sm:p-2 md:col-span-2 lg:p-4">
