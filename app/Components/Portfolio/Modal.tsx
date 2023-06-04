@@ -23,7 +23,7 @@ const Modal = ({ title, description, url, github, technologies, gif, handleModal
           <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24"></div>
         ) : (
           <div
-            className="rounded-lg items-center shadow-2xl h-section-layout md:h-auto w-11/12 md:w-6/12 2xl:w-6/12 pb-2 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative overflow-y-auto"
+            className="rounded-lg items-center shadow-2xl h-[95%] sm:h-section-layout md:h-auto w-11/12 md:w-6/12 2xl:w-6/12 pb-2 lg:pb-4 max-h-modal flex flex-col bg-white-bg relative overflow-y-auto"
             onClick={stopPropagation}
           >
             <Image
