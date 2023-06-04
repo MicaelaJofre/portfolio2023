@@ -19,7 +19,7 @@ const Portfolio = () => {
         <Subtitle>
           <span className="largerPrint">P</span>royectos
         </Subtitle>
-        <ul className="text-xs text-gray-400 leading-snug flex flex-col gap-3 cursor-pointer">
+        <ul className="text-xs text-gray-1 leading-snug flex flex-col gap-3 cursor-pointer">
           <li className={filter === 'Últimos proyectos' ? 'text-yellow-500 font-bold hover:text-yellow-select' : 'hover:text-yellow-select'} onClick={handleChange}>
             Últimos proyectos
           </li>

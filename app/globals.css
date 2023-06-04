@@ -62,7 +62,7 @@ input::placeholder {
   background-repeat: no-repeat;
 }
 
-#bg-modal {
+.modal {
   backdrop-filter: blur(2px);
 }
 .loader {

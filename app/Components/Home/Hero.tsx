@@ -13,27 +13,27 @@ const Hero = () => {
         <Title>
           <span className="text-gray-icon text-6xl lg:text-8xl decoration-solid">M</span>icaela Jofré
         </Title>
-        <p className="md:text-gray-600 text-gray-icon font-bold text-xs md:text-sm text-center md:text-left">
+        <p className="text-gray-2 font-bold text-xs md:text-sm text-center md:text-left">
           ¡Gracias por visitar mi portafolio! Aquí encontrarás una selección de mis proyectos más recientes y una breve descripción de mi experiencia
           y habilidades.
         </p>
-        <div className="flex gap-5 lg:gap-10 ">
+        <div className="flex gap-5 lg:gap-10 text-gray-icon">
           <a className='link hover:bg-yellow-select rounded-full' href="https://github.com/MicaelaJofre" target="_blank">
-            <GitHub width={30} height={30} color={'#181616'} />
+            <GitHub width={30} height={30} />
           </a>
           <a className='link hover:bg-yellow-select rounded-lg' href="https://www.linkedin.com/in/micaela-analia-jofre/" target="_blank">
-            <Linkedin width={30} height={30} color={'#181616'} />
+            <Linkedin width={30} height={30}/>
           </a>
           <a className='link hover:bg-yellow-select rounded-full' href="https://api.whatsapp.com/send?phone=5492613041445" target="_blank">
-            <WhatsApp width={30} height={30} color={'#181616'} />
+            <WhatsApp width={30} height={30}/>
           </a>
           <a className='link hover:bg-yellow-select rounded-full' href="mailto:mkjofre@gmail.com" target="_blank">
-            <Email width={30} height={30} color={'#181616'} />
+            <Email width={30} height={30}/>
           </a>
         </div>
       </div>
-      <a href='#about' className="w-full h-16 lg:h-full lg:w-2/4 flex items-center justify-center md:items-end md:justify-end p-8">
-        <Arrow width={50} height={50} color={'#181616'} />
+      <a href='#about' className="w-full h-16 lg:h-full lg:w-2/4 flex items-center justify-center md:items-end md:justify-end p-8 text-gray-arrow">
+        <Arrow width={50} height={50}/>
       </a>
       </article>
     </section>

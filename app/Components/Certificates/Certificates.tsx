@@ -44,7 +44,7 @@ const Certificates = () => {
           <Subtitle>
             <span className="largerPrint">C</span>ertificados
           </Subtitle>
-          <p className="text-sm font-medium text-gray-500">En esta sección, encontrarás los cursos más importantes que he realizado desde que comencé en la programación. Si deseas ver más puedes ver mi curriculum o ir a mi perfil de Linkedin.</p>
+          <p className="text-sm font-medium text-gray-2">En esta sección, encontrarás los cursos más importantes que he realizado desde que comencé en la programación. Si deseas ver más puedes ver mi curriculum o ir a mi perfil de Linkedin.</p>
         </div>
         <div className="w-full md:w-6/12 flex flex-col gap-4 justify-center items-center p-2">
           {data.map((d) => {

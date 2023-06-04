@@ -1,12 +1,12 @@
-import { IconProps } from '../IconsTypes'
+import { svgProps } from '../IconsTypes'
 
-function Arrow({ color, width, height }: IconProps) {
+function Arrow({ width, height }: svgProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       height={height}
-      fill={color}
+      fill='currentColor'
       version="1.1"
       viewBox="0 0 24 24"
       className='arrow hover:bg-yellow-select rounded-full'

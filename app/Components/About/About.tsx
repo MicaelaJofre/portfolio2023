@@ -20,75 +20,81 @@ import TypeScriptIcon from '../Icons/IconsAbout/TypeScriptIcon'
 import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
 import Subtitle from '../Subtitle'
 import AboutIcon from './AboutIcon'
+import { IconProps } from '../Icons/IconsTypes'
 
-const icons = [
+export type IconsAbout = {
+  name: string
+  Svg: IconProps
+}
+
+const icons : IconsAbout[] = [
   {
     name: 'html',
-    svg: HtmlIcon
+    Svg: HtmlIcon
   },
   {
     name: 'css',
-    svg: CssIcon
+    Svg: CssIcon
   },
   {
     name: 'bootstrap',
-    svg: BootstrapIcon
+    Svg: BootstrapIcon
   },
   {
     name: 'sass',
-    svg: SassIcon
+    Svg: SassIcon
   },
   {
     name: 'tailwind',
-    svg: tailwindicon
+    Svg: tailwindicon
   },
   {
     name: 'javaScript',
-    svg: JavaScriptIcon
+    Svg: JavaScriptIcon
   },
   {
     name: 'firebase',
-    svg: Firebase
+    Svg: Firebase
   },
   {
     name: 'react',
-    svg: ReactIcon
+    Svg: ReactIcon
   },
   {
     name: 'next',
-    svg: NextIcon
+    Svg: NextIcon
   },
   {
     name: 'jquery',
-    svg: JqueryIcon
+    Svg: JqueryIcon
   },
   {
     name: 'typeScript',
-    svg: TypeScriptIcon
+    Svg: TypeScriptIcon
   },
   {
     name: 'node',
-    svg: NodeIcon
+    Svg: NodeIcon
   },
   {
     name: 'express',
-    svg: ExpressIcon
+    Svg: ExpressIcon
   },
   {
     name: 'mongoDB',
-    svg: MongodbIcon
+    Svg: MongodbIcon
   },
   {
     name: 'wordpress',
-    svg: WordpressIcon
+    Svg: WordpressIcon
   },
   {
     name: 'cypress',
-    svg: CypressIcon
+    Svg: CypressIcon
   },
   {
     name: 'jest',
-    svg: JestIcon
+    Svg: JestIcon
   },
   /* {----borrar componente en caso de no utilizar
     name: 'visual studio code',
@@ -100,7 +106,7 @@ const icons = [
   }, */
   {
     name: 'Git',
-    svg: GitIcon
+    Svg: GitIcon
   }
 ]
 
@@ -112,13 +118,13 @@ const About = () => {
           <Subtitle>
             <span className="largerPrint">S</span>obre mi
           </Subtitle>
-          <p className="text-xs font-normal text-gray-500 uppercase tracking-widest">Hola mundo!</p>
-          <h3 className="font-bold text-[#181616] text-base sm:text-2xl">Soy Desarrolladora Fullstack.</h3>
-          <p className="text-xs lg:text-sm text-gray-600 font-semibold leading-snug">
+          <p className="text-xs font-normal text-gray-1 uppercase tracking-widest">Hola mundo!</p>
+          <h3 className="font-bold text-gray-icon text-base sm:text-2xl">Soy Desarrolladora Fullstack.</h3>
+          <p className="text-xs lg:text-sm text-gray-1 font-semibold leading-snug">
             Desde que completé mis estudios en Coderhouse en 2022, he estado trabajando en proyectos interesantes y desafiantes. Estoy comprometida
             con el aprendizaje constante y la mejora de mis habilidades en desarrollo web.
           </p>
-          <p className="text-sm text-gray-600 font-semibold leading-snug">
+          <p className="text-sm text-gray-1 font-semibold leading-snug">
             Si deseas saber más sobre mí, puedes consultar mi
             <a
               className="link text-yellow-select font-semibold"
@@ -138,7 +144,7 @@ const About = () => {
         </div>
         <div className="w-full sm:w-10/12 lg:w-3/12 grid grid-cols-about-col gap-4 justify-center items-center py-5 2x1:p-10">
           {icons.map((icon) => {
-            return <AboutIcon key={icon.name} Svg={icon.svg} name={icon.name} />
+            return <AboutIcon key={icon.name} Svg={icon.Svg} name={icon.name} />
           })}
         </div>
       </article>

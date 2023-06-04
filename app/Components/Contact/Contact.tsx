@@ -4,29 +4,37 @@ import GitHub from '../Icons/IconSocial/GitHub'
 import WhatsApp from '../Icons/IconSocial/WhatsApp'
 import Linkedin from '../Icons/IconSocial/Linkedin'
 import ContactIcon from './ContactIcon'
+import { IconProps } from '../Icons/IconsTypes'
 
-const data = [
+export type dataContact = {
+  name: string
+  Svg: IconProps
+  link: string
+  href: string
+}
+
+const data : dataContact[] = [
   {
     name: 'email',
-    svg: Email,
+    Svg: Email,
     link: 'mkjofre@gmail.com',
     href: 'mailto:mkjofre@gmail.com'
   },
   {
     name: 'whatsApp',
-    svg: WhatsApp,
+    Svg: WhatsApp,
     link: '261-3041445',
     href: 'https://api.whatsapp.com/send?phone=5492613041445'
   },
   {
     name: 'linkedin',
-    svg: Linkedin,
+    Svg: Linkedin,
     link: 'www.linkedin.com/in/micaela-analia-jofre',
     href: 'https://www.linkedin.com/in/micaela-analia-jofre/'
   },
   {
     name: 'gitHub',
-    svg: GitHub,
+    Svg: GitHub,
     link: 'https://github.com/MicaelaJofre',
     href: 'https://github.com/MicaelaJofre'
   }
@@ -40,12 +48,12 @@ const Contact = () => {
           <Subtitle>
             <span className="largerPrint">C</span>ontacto
           </Subtitle>
-          <p className='text-sm font-medium text-gray-600'>Escribime por cualquiera de los medios de contacto.</p>
-          <p className='text-sm font-medium text-gray-600'>Voy a estar esperando tu mensaje!</p>
+          <p className='text-sm font-medium text-gray-2'>Escribime por cualquiera de los medios de contacto.</p>
+          <p className='text-sm font-medium text-gray-2'>Voy a estar esperando tu mensaje!</p>
         </div>
         <div className='w-full md:w-6/12 grid grid-cols-contact-md lg:grid-cols-contact-lg 2x1:grid-cols-contact-2x1 gap-4 justify-center items-center p-2'>
           {data.map((d) => {
-            return <ContactIcon key={d.name} Svg={d.svg} name={d.name} link={d.link} href={d.href} />
+            return <ContactIcon key={d.name} Svg={d.Svg} name={d.name} link={d.link} href={d.href} />
           })}
         </div>
       </article>
