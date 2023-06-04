@@ -1,12 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./app/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}'
+  ],
   theme: {
     extend: {
       colors: {
         'yellow-select': 'rgba(245, 158, 11, .8)',
         'white-bg': '#f9f9f9',
-        'gray-icon': '#181616',
+        'gray-icon': '#4a4a4a',
+        'gray-arrow': '#282727',
+        'gray-1': '#7f7f7f',
+        'gray-2': 'rgb(75 85 99)',
         'black-bg': 'rgb(0 0 0 / 42%)'
       },
       height: {
