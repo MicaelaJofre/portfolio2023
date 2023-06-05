@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="w-full h-auto pb-16 flex flex-col justify-center items-center gap-40">
       <Waypoints target={'tohome'}>
-        <div id="home" className='w-screen  flex justify-center items-center pt-20'>
+        <div id="home" className='w-screen min-h-screen flex justify-center items-center pt-20'>
           <Hero />
         </div>
       </Waypoints>

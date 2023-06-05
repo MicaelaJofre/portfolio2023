@@ -14,7 +14,7 @@ const AboutIcon = ({ Svg, name }: Props) => {
         <Svg width={20} height={20}/>
       </div>
       {showTooltip && (
-        <div className="absolute -top-5 -left-7 -translate-x-1/2 bg-yellow-select text-white py-1 px-2 z-10 rounded text-sm whitespace-nowrap">
+        <div className="absolute -top-5 left-4 -translate-x-1/2 bg-yellow-select text-white py-1 px-2 z-10 rounded text-sm whitespace-nowrap">
           {name}
         </div>
       )}
