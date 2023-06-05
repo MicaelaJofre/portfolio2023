@@ -17,7 +17,7 @@ Abra http://localhost:3000 con su navegador para ver el resultado
 
 ## Deploy
 
-Este proyecto se ha desplegado en Vercel, una plataforma de hosting y despliegue para aplicaciones web. Puedes acceder a la versión desplegada en [aquí](https://www.micaelajofre.ml/).
+Este proyecto se ha desplegado en Vercel, una plataforma de hosting y despliegue para aplicaciones web. Puedes acceder a la versión desplegada [aquí](https://www.micaelajofre.ml/).
 
 
 ## Tecnologías utilizadas
