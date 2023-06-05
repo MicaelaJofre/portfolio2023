@@ -22,7 +22,7 @@
   {
     "title": "Api de notas",
     "description": "La API REST desarrollada permite a los usuarios realizar operaciones básicas en notas. Los usuarios pueden obtener una lista de todas las notas, crear nuevas notas, actualizar notas existentes y eliminar notas. Es una herramienta útil para implementar la gestión de notas en diferentes aplicaciones o sistemas.",
-    "technologies": "El proyecto se desarrolló con Node, Express y MOngoDB.",
+    "technologies": "El proyecto se desarrolló con Node, Express y MongoDB.",
     "github": "https://github.com/MicaelaJofre/apiNotes",
     "url": "",
     "img":  "/image/portfolio/apiNotas.webp",
@@ -92,7 +92,7 @@
   {
     "title": "Api para blogs",
     "description": "API REST desarrollada con el objetivo de permitir a los usuarios llevar a cabo operaciones esenciales en la creación, actualización y eliminación de blogs. Esta API cuenta con funcionalidades de autenticación de usuarios mediante JSON Web Tokens (JWT) y utiliza MongoDB como base de datos. Permitiendo gestionar blogs de manera eficiente y segura, garantizando la autenticación y autorización adecuadas.",
-    "technologies": "El proyecto se desarrolló con React js, CSS, Node, Express y MOngoDB.",
+    "technologies": "El proyecto se desarrolló con React js, CSS, Node, Express y MongoDB.",
     "github": "https://github.com/MicaelaJofre/fullstackopen-part4",
     "url": "",
     "img":  "/image/portfolio/apiBlog.webp",
