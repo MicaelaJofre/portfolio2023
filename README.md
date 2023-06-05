@@ -27,14 +27,9 @@ Este proyecto se ha desplegado en Vercel, una plataforma de hosting y despliegue
 - Tailwind CSS
 - pnpm
 
-
-## Contribución
-
-¡Se agradecen las contribuciones a este proyecto! Si tienes sugerencias, mejoras o correcciones, siéntete libre de abrir un pull request.
-
 ## Contacto
 
-Si deseas comunicarte conmigo, puedes hacerlo a través del formulario de contacto en el portafolio o enviándome un correo electrónico a mkjofre@gmail.com.
+Si deseas comunicarte conmigo, puedes hacerlo a través de cualquiera de los medios de contacto que aparecen en la sección de contacto del portafolio.
 
 ¡Gracias por visitar mi portafolio! Espero que encuentres interesantes los proyectos y la información presentada.
 
