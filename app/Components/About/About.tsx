@@ -128,7 +128,7 @@ const About = () => {
             Si deseas saber más sobre mí, puedes consultar mi
             <a
               className="link text-yellow-select font-semibold"
-              href="https://drive.google.com/file/d/1mCc6CEEJLlmWOJxynBCl2aUjfyQidnCi/view?usp=sharing"
+              href="https://drive.google.com/file/d/127NgBHraK15UUQZpNaC-R9m8MD9IM0Qr/view?usp=sharing"
               target="_blank"
             >
               {' '}
