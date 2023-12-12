@@ -15,8 +15,6 @@ import ReactIcon from '../Icons/IconsAbout/ReactIcon'
 import SassIcon from '../Icons/IconsAbout/SassIcon'
 import tailwindicon from '../Icons/IconsAbout/TailwindIcon'
 import TypeScriptIcon from '../Icons/IconsAbout/TypeScriptIcon'
-/* import VisualIcon from '../Icons/IconsAbout/VisualIcon' */
-/* import GitHub from '../Icons/IconSocial/GitHub' */
 import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
 import Subtitle from '../Subtitle'
 import AboutIcon from './AboutIcon'
