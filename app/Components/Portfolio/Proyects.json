@@ -3,7 +3,7 @@
     "title": "Productos AI",
     "description": "ProductosAI es líder en soluciones de agente para WhatsApp, ofreciendo implementaciones rápidas y asesoramiento experto en la elección de la mejor IA Conversacional. Creamos experiencias conversacionales personalizadas, integrando nuestra tecnología propia fácilmente con sistemas de Atención al Cliente y CRMs. Los agentes en WhatsApp con Inteligencia Artificial optimizan la comunicación al automatizar respuestas a preguntas comunes y enviar mensajes proactivos, mejorando la eficiencia y la satisfacción del cliente.",
     "technologies": "El proyecto se desarrolló con React js, TypeScript, Socket.io, NestJs y Amazon Web Services (AWS).",
-    "landing": "https://productos-ai.com/",
+    "github": "https://productos-ai.com/",
     "url": "https://app.productos-ai.com/",
     "img":  "/image/portfolio/productsAI.jpeg",
     "category": "react/next",
