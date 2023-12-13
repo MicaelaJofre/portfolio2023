@@ -40,7 +40,7 @@ const Portfolio = () => {
               title={proyect.title}
               img={proyect.img}
               description={proyect.description}
-              github={proyect.github}
+              github={proyect.github || proyect.landing}
               url={proyect.url}
               technologies={proyect.technologies}
               gif={proyect.gif}
