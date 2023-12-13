@@ -47,7 +47,7 @@ const Modal = ({ title, description, url, github, technologies, gif, handleModal
                 href={github}
                 target="_blank"
               >
-                { github === 'https://productos-ai.com/' ? 'Landing Page' : 'GitHub' ]
+                { github === 'https://productos-ai.com/' ? 'Landing Page' : 'GitHub' }
               </a>
               {url ? (
                 <a
