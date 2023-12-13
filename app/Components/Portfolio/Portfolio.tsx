@@ -34,15 +34,13 @@ const Portfolio = () => {
           </li>
         </ul>
         {proyects.map((proyect) => {
-         let github = proyect.github !== undefined ? proyect.github : '';
-         let githubUrl = github || proyect.landing;
           return (
             <Proyect
               key={proyect.title}
               title={proyect.title}
               img={proyect.img}
               description={proyect.description}
-              github={githubUrl}
+              github={proyect.github}
               url={proyect.url}
               technologies={proyect.technologies}
               gif={proyect.gif}
