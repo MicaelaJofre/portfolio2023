@@ -19,6 +19,11 @@ import WordpressIcon from '../Icons/IconsAbout/WordpressIcon'
 import Subtitle from '../Subtitle'
 import AboutIcon from './AboutIcon'
 import { IconProps } from '../Icons/IconsTypes'
+import SocketIo from '../Icons/IconsAbout/SocketIO'
+import Redux from '../Icons/IconsAbout/Redux'
+import Aws from '../Icons/IconsAbout/Aws'
+import VisualIcon from '../Icons/IconsAbout/VisualIcon'
+import GitHub from '../Icons/IconSocial/GitHub'
 
 export type IconsAbout = {
   name: string
@@ -59,8 +64,16 @@ const icons : IconsAbout[] = [
     Svg: ReactIcon
   },
   {
+    name: 'redux',
+    Svg: Redux
+  },
+  {
     name: 'next',
     Svg: NextIcon
+  },
+  {
+    name: 'socket',
+    Svg: SocketIo
   },
   {
     name: 'jquery',
@@ -83,6 +96,10 @@ const icons : IconsAbout[] = [
     Svg: MongodbIcon
   },
   {
+    name: 'AWS',
+    Svg: Aws
+  },
+  {
     name: 'wordpress',
     Svg: WordpressIcon
   },
@@ -94,14 +111,14 @@ const icons : IconsAbout[] = [
     name: 'jest',
     Svg: JestIcon
   },
-  /* {----borrar componente en caso de no utilizar
+  {
     name: 'visual studio code',
-    svg: VisualIcon
+    Svg: VisualIcon
   },
   {
     name: 'GitHub',
-    svg: GitHub
-  }, */
+    Svg: GitHub
+  },
   {
     name: 'Git',
     Svg: GitIcon
@@ -126,7 +143,7 @@ const About = () => {
             Si deseas saber más sobre mí, puedes consultar mi
             <a
               className="link text-yellow-select font-semibold"
-              href="https://drive.google.com/file/d/127NgBHraK15UUQZpNaC-R9m8MD9IM0Qr/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jzWOX5YOSsX-AmpX8bM1IgU9rfTQePf6/view?usp=sharing"
               target="_blank"
             >
               {' '}
@@ -140,7 +157,7 @@ const About = () => {
             .
           </p>
         </div>
-        <div className="w-full sm:w-10/12 lg:w-3/12 grid grid-cols-about-col gap-4 justify-center items-center py-5 2x1:p-10">
+        <div className="w-full sm:w-10/12 lg:w-4/12 2x1:w-3/12 grid grid-cols-about-col gap-4 justify-center items-center py-5 2x1:p-10">
           {icons.map((icon) => {
             return <AboutIcon key={icon.name} Svg={icon.Svg} name={icon.name} />
           })}

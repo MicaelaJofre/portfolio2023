@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
       <a href='#about' className="w-full h-16 lg:h-full lg:w-2/4 flex items-center justify-center md:items-end md:justify-end p-8 text-gray-arrow">
-        <Arrow width={50} height={50}/>
+        <Arrow width={60} height={60}/>
       </a>
       </article>
     </section>

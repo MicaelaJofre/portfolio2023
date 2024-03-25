@@ -17,7 +17,7 @@ module.exports = {
         'black-bg': 'rgb(0 0 0 / 42%)'
       },
       height: {
-        'section-layout': '30em'
+        'section-layout': '78vh'
       },
       gridTemplateColumns: {
         'about-col': 'repeat(auto-fill, minmax(40px, 1fr))',
@@ -32,7 +32,7 @@ module.exports = {
         lgSection: '80vh'
       },
       width: {
-        section: '50vw'
+        section: '80vw'
       },
       screens: {
         '2x1': '1800px',

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Subtitle from '../Subtitle'
 import Certificate from './Certificate'
 
@@ -37,6 +38,7 @@ const data = [
 ]
 
 const Certificates = () => {
+  const [openDropdown, setOpenDropdown] = useState('')
   return (
     <section id='certificates' className="w-full sm:w-11/12 lg:w-10/12 2x1:w-section mt-6 overflow-hidden h-auto md:h-section-layout py-12 md:py-0 shadow-lg flex justify-center items-center bg-white-bg">
       <article className="flex flex-col md:flex-row w-10/12 items-center justify-between gap-10">
@@ -48,7 +50,7 @@ const Certificates = () => {
         </div>
         <div className="w-full md:w-6/12 flex flex-col gap-4 justify-center items-center p-2">
           {data.map((d) => {
-            return <Certificate key={d.title} title={d.title} school={d.school} description={d.description} link={d.link} date={d.date}/>
+            return <Certificate key={d.title} title={d.title} school={d.school} description={d.description} link={d.link} date={d.date} openDropdown={openDropdown} setOpenDropdown={setOpenDropdown}/>
           })}
         </div>
       </article>
